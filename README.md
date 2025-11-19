@@ -14,3 +14,5 @@ A React app showcasing a collection of books using reusable components, built wi
    ```bash
    git clone https://github.com/fmisriya/book-library.git
    cd book-library
+   2. Run `npm install`
+   3. Run `npm run dev`

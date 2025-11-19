@@ -1,0 +1,43 @@
+/* src/index.css */
+:root {
+  --card-bg: #ffffff;
+  --card-border: #e2e8f0;
+  --accent: #2563eb;
+}
+
+body {
+  font-family: Inter, system-ui, Arial, sans-serif;
+  background: #f7fafc;
+  margin: 0;
+  padding: 20px;
+  color: #0f172a;
+}
+
+.container { max-width: 1000px; margin: 0 auto; }
+
+.header { text-align: center; margin-bottom: 20px; }
+.header h1 { margin: 0; font-size: 2rem; }
+.subtitle { margin: 6px 0 20px; color: #475569; }
+
+.summary { display:flex; gap:20px; justify-content:center; margin-bottom:20px; color:#334155; }
+
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.book-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  padding: 14px;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(2,6,23,0.03);
+}
+
+.book-title { margin: 0 0 6px; font-size: 1.1rem; color: #0f172a; }
+.book-meta { margin: 6px 0; font-size: 0.9rem; color:#475569; }
+.book-desc { font-size: 0.95rem; color:#334155; }
+
+.footer { text-align:center; border-top: 1px dashed #e2e8f0; padding-top: 12px; color:#475569; font-size:0.9rem; }

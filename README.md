@@ -7,7 +7,8 @@ A React app showcasing a collection of books using reusable components, built wi
 
 ## Links
 - **GitHub Repository:** https://github.com/fmisriya/book-library.git
-- **Live Website:** https://book-libraryy.netlify.app/
+- **Live Website:** https://book-libraryyyy.netlify.app/
+
 
 ## Run Locally
 1. Clone the repository:

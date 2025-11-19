@@ -81,7 +81,7 @@ export default function App() {
 
       <footer className="footer">
         <p>© 2025 Book Lover</p>
-        <p>Created by: Your Name Here • your.email@example.com</p>
+        <p>Created by: Fathima Misriya • fmisriya28@gmail.com</p>
       </footer>
     </div>
   );
